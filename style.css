@@ -42,3 +42,32 @@ h1{
 .dream-area-part img{
     width: 100%;
 }
+#experiance-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 10%;
+}
+.experiance-area-part{
+    display: flex;
+}
+.experiance-area-part h3{
+    color: orange;
+}
+.experiance-area-part div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
+    margin: 15px;
+}
+#full-stack{
+    border-left: 3px solid;
+    border-image: linear-gradient(180deg,red,tomato);
+    border-image-slice: 1;
+    padding: 10px;
+}
+#baby-web{
+    border-left: 3px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 3;
+    padding: 10px;
+}
